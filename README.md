@@ -4,7 +4,7 @@
 
 | Launch | Home | Courses |
 | -- | -- | -- |
-| <img src="GrocerEase/Media/Launch.png" width="200"> | <img src="GrocerEase/Media/Welcome.png" width="200"> | <img src="GrocerEase/Media/Categories.png" width="200"> 
+| <img src="Msigma/Media/Launch.png" width="200"> | <img src="Msigma/Media/Home.png" width="200"> | <img src="GrocerEase/Media/Courses.png" width="200"> 
 
 ## Overview
 
