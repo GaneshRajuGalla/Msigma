@@ -102,33 +102,19 @@ extension CourseView{
     
     private func branchesGrid() -> some View {
         ScrollView(showsIndicators: false){
-            if let branches = viewModel.branches {
             LazyVGrid(columns: columns, spacing: 14) {
+                if let branches = viewModel.branches {
                     ForEach(branches, id: \.id) { branch in
                         branchItem(branch: branch)
                             .frame(height: 130)
                     }
                 }
-                .padding()
-            } else {
-                noCourcesView()
             }
+            .padding()
         }
     }
     
-    private func noCourcesView() -> some View{
-        HStack(spacing: 20, content: {
-            Image(.gate)
-                .resizable()
-                .scaledToFit()
-                .frame(width: 40,height: 40)
-            
-            Text("No Courses")
-                .font(.title)
-                .fontWeight(.medium)
-                .foregroundStyle(.gray)
-        })
-    }
+   
 
     
     // TODO: - CourceItem
