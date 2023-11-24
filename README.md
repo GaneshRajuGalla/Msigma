@@ -28,7 +28,7 @@ Msigma is an innovative online education platform crafted to simplify and enhanc
   
 ## Getting Started
 
-To get started with GrocerEase, follow these simple steps:
+To get started with Msigma, follow these simple steps:
 
 1. Clone the project from the provided GitHub repository.
 
