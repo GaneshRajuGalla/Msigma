@@ -75,6 +75,7 @@ extension HomeView{
     private func headerView() -> some View{
         HStack(alignment: .top){
             headerTextView()
+            Spacer()
             headreIconsView()
         }
     }
